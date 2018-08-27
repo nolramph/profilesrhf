@@ -1,0 +1,118 @@
+body#products{
+    header.producthead{
+        h1{
+            font-size: 2rem;
+        }
+        .btn-request-quote, .btn-list-of-products{
+            width:100%;
+            margin-bottom: 25px; 
+        }
+    }
+    .content-img{
+        text-align: center;
+        img{
+            box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+            border-radius: .25rem;
+            width: auto
+        }
+        p{  
+            text-align: justify;
+        }
+        img, p, form{
+            margin-top: 15px;
+            margin-bottom: 15px; 
+        }
+    }
+    .product-list{
+        text-align: center;
+        a{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom:50px;
+        }
+        br{
+            display:block;
+        }
+        
+        img{
+            width: 75%;
+            border-radius: .1875rem;
+            -webkit-transition: all .2s ease 0s;
+            transition: all .2s ease 0s;
+            -webkit-box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
+            box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
+        }
+        h3{
+            text-align: center;
+            font-size: 1.3rem;
+        }
+        
+    }  
+    #request-quote{
+        margin-top: -40px;
+        padding: 0;
+        background-color:#EEE;
+    }
+    #product-sheets a{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width:768px){
+    body#products{
+        h2{
+            font-size: 1.2rem;
+        }
+        .content-img{
+            img{
+                width: 100%;
+            }
+        }
+        .products-alu{
+            width: 50%
+        }
+        #product-sheets a{
+            font-size: 0.8rem;
+        }
+    } 
+}
+
+@media(min-width:992px){
+    body#products{
+        h2{
+            font-size: 1.8rem;
+        }
+        header.producthead{
+            h1{ 
+                font-size: 3rem;
+            }
+            .btn-request-quote, .btn-list-of-products{
+                width:25%;
+                display: inline-block;
+            }
+        }
+        #product-list a{
+            margin-bottom:70px;
+            br{
+                display:none;
+            }
+        } 
+        #request-quote{
+            margin-top: -60px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+        .content-img{
+            img, p, form{
+                margin-top: 25px;
+                margin-bottom: 25px; 
+            }
+        }
+        #product-sheets a{
+            margin-bottom: 70px;
+        }
+         
+    }
+}

@@ -1,0 +1,120 @@
+body#services{
+    header.servicehead{
+        h1{font-size:2rem;}
+        .foldhead-container.carousel-container{
+            margin-top: 1rem;
+            padding: 0px 0;
+        }
+    } 
+    #c-1{
+        h2{
+            text-align: center;
+        }
+        p{
+            clear: both;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: inline-flex;
+            vertical-align: middle;
+            i{
+                color:#a2a2a2;
+            }
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+            margin:auto;
+            width: 60%;
+          }
+          
+        ul.sub-services{
+            float: none;
+            li {
+                width: 13em;
+                padding-left: 1em;
+                text-indent: -1em;
+                }
+            li:before {
+                font-family: 'FontAwesome';
+                content: "\f192";
+                margin:0 5px 0 15px;
+                color: $black;
+                }
+        }
+        .service-pic{ 
+            text-align: center;
+            img{
+                border-radius: .1875rem;
+                -webkit-transition: all .2s ease 0s;
+                transition: all .2s ease 0s;
+                -webkit-box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
+                box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
+            }
+            p{
+                font-size: 1rem;
+                font-weight: 600;
+                margin: 10px 0 25px;
+            }
+        }
+    } 
+    #c-2{
+        padding-left: initial;
+        padding-right: initial;
+        background-color: #EEE;
+        text-align: center;
+        p{
+            text-align: justify;
+            margin: 15px 0;
+        }
+        img{
+            height: auto;
+            box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+            border-radius: .25rem;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        ul {
+            text-align: left;
+            i{
+                color:#17a222;
+            }
+        }
+    }
+}
+@media(min-width: 768px){
+    body#services{
+        header.servicehead{
+            .foldhead-container.carousel-container{
+                margin-top: 9rem;
+                padding: 40px 0px 0;
+            }
+            h1{font-size:2.8rem}
+        }
+        #c-1{
+            p{
+                text-align: left;
+                font-size: 1.5rem;
+                margin: 15px 0;
+            }
+            ul{
+                margin:auto;
+                width: auto;
+            }
+            ul.sub-services{
+                float: left; 
+            }
+        }
+        #c-2{ 
+        text-align: center;
+        padding-left: 25%;
+        padding-right: 25%;
+            img{
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+}

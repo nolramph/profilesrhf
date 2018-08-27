@@ -1,0 +1,140 @@
+// Styling for the foldhead
+header.foldhead{
+  background: url('../images/home-bg1.png');
+  background-position: top center;
+}
+header.producthead{
+  background: url('../images/products/product-bg.svg');
+  background-position: right center;
+}
+header.servicehead{
+  background: url('../images/services/engineering-services.svg');
+  background-position: right center;
+} 
+header.projecthead{
+  background: url('../images/projects/projects-bg.svg');
+  background-position: right center;
+}
+header.foldhead, header.producthead, header.servicehead, header.projecthead{
+  text-align: center; 
+  color: white;
+  padding-bottom: 2rem;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  @include background-cover;
+  .foldhead-container{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    h1{
+      font-size: 3rem;
+      color: $white;
+    }
+    h1,p{ 
+      margin-bottom: 20px;
+    } 
+  }
+} 
+header.projecthead{
+  .foldhead-container{
+    h1{
+      font-size: 2rem;
+      text-align: left;
+    }
+  }
+  .foldhead-container.content{
+    p{
+      text-align: justify;
+    }
+  }
+  .foldhead-container.image{
+      margin: 0;
+      padding: 15px 0 0;
+      p{
+        margin-bottom: 0;
+        font-size: 1rem;
+      }
+      img{
+        margin-bottom: 10px;
+      }
+      p:last-of-type{
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+      }
+      br{
+        display:none;
+      }
+  }
+}
+
+
+@media(min-width:768px) {
+  header.foldhead, header.producthead, header.servicehead,header.projecthead,  {
+    text-align: left;
+    padding-bottom:2rem;
+    background-position: top right;
+    .foldhead-container, .foldhead-container.image{
+      margin-top: 8rem;
+      margin-bottom: 2rem;
+      padding: 40px 0px 0;
+    } 
+    .foldhead-overlay {
+      .foldhead-title {
+        margin-bottom: 25px;
+        @include default-font;
+      }
+      .foldhead-heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 75px; 
+        margin-bottom: 50px;
+      }
+    }
+  }
+  header.producthead{
+    background-position: right center;
+    .foldhead-container{
+      text-align:center;
+      p{
+        text-align: center;
+      }
+    }
+  }
+  header.projecthead{
+    .foldhead-container{
+      .photo-content{
+        br{
+          display:block;
+        }
+          clear:both;
+          p, img{
+              float:left;
+          }
+          p{
+              margin:0 15px 0;
+          }
+          img{
+              margin-bottom: 15px;
+          }
+      }
+      h1{
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media(min-width:992px) {
+  header.projecthead{
+  .foldhead-container.image{
+        p:last-of-type{
+          margin-bottom: 20px;
+          font-size: 1rem; 
+        }
+        .photo-content{
+          br{
+            display:none;
+          }
+        }
+      }
+  }
+}

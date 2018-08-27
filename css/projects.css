@@ -1,0 +1,24 @@
+body#projects header.projecthead .foldhead-container .photo-content {
+  clear: both;
+}
+
+body#projects header.projecthead .foldhead-container .photo-content p, body#projects header.projecthead .foldhead-container .photo-content img {
+  float: left;
+}
+
+body#projects header.projecthead .foldhead-container .photo-content p {
+  margin: 0 15px 0;
+}
+
+body#projects header.projecthead .foldhead-container .photo-content img {
+  margin-bottom: 15px;
+}
+
+body#projects #c-1 {
+  background-color: #EEE;
+  text-align: center;
+}
+
+body#projects #c-1 .div-select {
+  margin: auto 40%;
+}

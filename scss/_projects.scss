@@ -1,0 +1,23 @@
+body#projects{
+    #c-1{
+        background-color: #EEE;
+        text-align: center;
+        .div-select{
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+    }
+}
+
+@media(min-width: 768px){
+    body#projects{ 
+        #c-1{
+            .div-select{
+                margin: auto 20% 25px;
+            }
+
+        }
+    }
+}
+

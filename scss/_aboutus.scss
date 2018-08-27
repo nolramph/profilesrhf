@@ -1,0 +1,101 @@
+#aboutus,
+#corporate-profile,
+#corporate-governance,
+#health-and-safety,
+#environment-energy,
+#our-people,
+#diversity-inclusion,
+#citizenship-action,
+#project-management,
+#contactus{
+    h1{
+      margin-bottom: 25px;
+      font-weight: normal;
+      text-align: center; 
+    }
+    background-color:$black-bg;
+    .aboutus-content-container{
+      border-radius: 15px;
+      padding: 30px;
+      background-color:#EEE; 
+      z-index: 5;
+      position: relative;
+      border-top-left-radius: 0;
+    }
+    h3.section-subheading{
+      text-align: center;  
+      margin-bottom: 50px;
+    } 
+}  
+#contactus{
+  .aboutus-content-container{
+    border-radius: 15px;
+  }
+}
+
+#corporate-profile,
+#corporate-governance,
+#health-and-safety,
+#environment-energy,
+#our-people,
+#diversity-inclusion,
+#citizenship-action,
+#project-management{
+  .aboutus-content-container img{
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+  }
+}
+
+#breadcrumbs{
+  margin-bottom: -10px;
+  z-index: 0;
+  a.btn-breadcrumbs{
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      box-sizing: border-box;
+      border-width: 2px;
+      font-size: 12px;
+      font-weight: 600;
+      padding: .4rem 5px;
+      line-height: 1.75;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: none;
+      transition: all 1s ease;
+      text-decoration: none;
+      background-color: #FFF;
+      &:hover{
+        color:$black-bg;
+      }
+  }
+  #subBreadcrumbsPage{
+    display:none;
+  }
+  .fa{
+    color:#FFF;
+    display: none;
+  }
+}
+
+
+@media(min-width: 768px){
+  #aboutus,
+  #corporate-profile,
+  #corporate-governance,
+  #health-and-safety,
+  #environment-energy,
+  #our-people,
+  #diversity-inclusion,
+  #citizenship-action,
+  #project-management{
+      h1{
+        margin-bottom: 50px;
+      }
+  }  
+  #contactus{
+    .aboutus-content-container{
+      margin-top:30px;
+    }
+  }
+}

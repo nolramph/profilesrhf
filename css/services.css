@@ -1,0 +1,22 @@
+#we-offer h2 {
+  text-align: center;
+}
+
+#we-offer p {
+  clear: both;
+  font-size: 1.3rem;
+}
+
+#we-offer p i {
+  color: #a2a2a2;
+}
+
+#we-offer ul.sub-services {
+  float: left;
+}
+
+#we-offer ul.sub-services li {
+  width: 13em;
+  padding-left: 1em;
+  text-indent: -1em;
+}

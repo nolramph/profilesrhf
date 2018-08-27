@@ -1,0 +1,35 @@
+#messageModal{
+    .rounded-image{
+        margin: auto;
+        display: block;
+        width: 100%;
+        img{
+            border-radius: 50%;
+            height: 150px;
+        }
+        h2{
+            margin: 0;
+        }
+    }
+    .btn-red{
+        font-size: 1rem;
+        padding: 0px 20px;
+    }  
+    p{
+        text-align: justify;
+    }
+    .modal-header{
+        background-color: #EEE;
+    }
+} 
+.modal-body{
+    padding: 1rem;
+}
+
+@media(min-width: 768px){
+    #messageModal{
+        .modal-body{
+            padding: 1rem 5rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Profiles RH LLC",
+  "description": "",
+  "version": "2.1.15",
+  "author": {
+    "name": "Marlon Peralta"
+  },
+  "main": ["jquery.backstretch.js"],
+  "dependencies": {
+    "jquery": ">=1.9.x"
+  },
+  "ignore": [
+    "Gruntfile.js",
+    "examples",
+    "libs",
+    "test",
+    ".gitignore",
+    "src"
+  ]
+}

@@ -1,0 +1,147 @@
+// Styling for the navbar
+#mainNav {
+  background-color:lighten($white, 50%);
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: $white;
+    border: 0;
+    background-color: darken($primary, 10%);
+    @include heading-font;
+  }
+  .navbar-brand {
+    color: $primary;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: $white;
+    }
+    img{
+      height:70px; 
+    } 
+    div{
+      display:none;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      text-align: center;
+      font-size: 1rem;
+      a.nav-link {
+        font-size: 90%;
+        font-weight: 700;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: $primary;
+        @include heading-font;
+      }
+    }
+  }
+  #navbarResponsive{
+    border-top: 1px solid #EEE;
+    margin-top: 10px;
+    .dash{
+      display:inline-block;
+    }
+  }
+}
+
+#sidebar-wrapper{
+  display: block;
+}
+
+
+// @media(min-width:320px) and (orientation: landscape){
+//   #mainNav {
+//     .navbar-brand {
+//         div{
+//           display:inline-block;
+//           position: absolute;
+//           bottom: 10px;
+//           margin-left: 5px;
+//         }
+//       }
+//     }
+// }
+// @media(min-width:768px) and (orientation: portrait){
+//   #mainNav {
+//     .navbar-brand {
+//         div{
+//           display:inline-block;
+//           position: absolute;
+//           bottom: 10px;
+//           margin-left: 5px;
+//         }
+//       }
+//     }
+// }
+
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: .5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      img{
+        height:80px;
+      } 
+      div{
+        @include heading-font; 
+        color: $white;
+        display:block;  
+        @include font-weight-800;
+        position: relative;
+        bottom: 0;
+        margin-left: 0;
+      }
+    }
+    .navbar-nav {  
+      .nav-item {
+        a.nav-link{
+          color: $white;
+          padding: 1.1em 1em !important;
+          &.active,
+          &:hover { 
+            background-color: rgba(255,255,255,0.2);
+            border-radius: 3px;
+            color: #FFFFFF;
+          }
+        }
+        a.nav-link.active{
+          background-color: rgba(255,255,255,0.2);
+          border-radius: 3px;
+          color: #FFFFFF;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0; 
+      background-color: lighten($primary, 20%);
+      box-shadow: 0 10px 10px -2px rgba(0,0,0,.15);
+      .navbar-brand {
+        font-size: 1.25em; 
+        padding: 12px 0;
+        img{
+          height:40px;
+        } 
+      }
+    }
+    #navbarResponsive{
+      border-top: none;
+      .dash{
+        display:none;
+      }
+    } 
+  }
+}

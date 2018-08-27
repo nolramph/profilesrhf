@@ -1,0 +1,33 @@
+form#profilesRhForm{
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1.25rem;
+    border: solid 3px #03A9F4;
+    padding: 20px;
+    background-color:$white;
+    hr{
+        border: solid 1px #03A9F4;
+    }
+    .profilesRh-placeholder{ 
+        border-radius:10;
+        min-height: 50px;
+        font-size: 1.2rem;
+        @include default-helvetica-font;
+        &::-webkit-input-placeholder { color: #C4C4C4; font-weight: 500; }
+        &::-moz-placeholder { color: #C4C4C4; font-weight: 500;}  
+        &:-ms-input-placeholder { color: #C4C4C4; font-weight: 500;}  
+        &:-moz-placeholder { color: #C4C4C4; font-weight: 500;}
+        &::selection{background-color:lighten($primary, 50%)};
+        &::moz-selection{background-color:lighten($primary, 50%)};
+    }
+ 
+    .onHovered{ 
+        &::-webkit-input-placeholder {color:#03A9F4;}  
+        &:-moz-placeholder {color: #03A9F4;}
+        &::-moz-placeholder {color: #03A9F4;}
+        &:-ms-input-placeholder {color: #03A9F4;}
+    }
+    textarea{
+        resize: none;
+    }
+
+}   

@@ -1,0 +1,161 @@
+@media (max-width: 767px) {
+    .presentation-page .components-container .card {
+        margin-bottom: 40px !important;
+      }
+}
+
+@media (max-width: 500px) {
+    .presentation-page .section-header .card {
+      min-height: 230px;
+    }
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    color: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0 none;
+    -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -moz-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -o-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -ms-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    p{
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+    a:not(.btn) {
+        color: #444444;
+    }
+    .card-description {
+        color: #9A9A9A;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .card-description.white{
+        color: rgba(255, 255, 255, 0.7);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px 12px 0 0;
+      }
+      
+  } 
+  .card:not(.card-plain):hover {
+    box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+  }
+  .card.no-transition:hover, .card.page-carousel:hover, .card.card-refine:hover, .card.card-register:hover {
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+  }
+  .card > .card-title {
+    margin: 0;  
+    padding: 30px 0 0;
+  }
+  .card .card-body {
+    padding: 20px 20px 0;  
+  }
+  .card .card-body .card-title {
+    margin: 5px 0 0 0;
+  }
+  .card .card-body .card-category ~ .card-title {
+    margin-top: 5px;
+  }
+  .card[data-background="image"] {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+  }
+  .card[data-background="image"] .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 180px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card[data-background="image"] .card-title, .card[data-background="image"] p {
+    color: #FFF;
+    margin-top: 10px;
+  }
+  .card[data-background="image"]:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 12px;
+  }
+  .card-image .card {
+    background-size: cover;
+    min-height: 430px;
+    width: 100%;
+  }
+  .card-image .img-raised {
+    margin-top: -20px;
+  }
+  
+  .card-image .card-body {
+    min-height: 50px;
+    padding: 0 4px 0.5em;
+    position: relative;
+  }
+ 
+  .card-image .card-body .name:hover, .card-image .card-body .name:active, .card-image .card-body .name:focus {
+    color: #403D39;
+  }
+  .card-image .card-body .actions .btn.btn-simple {
+    padding-left: 2px;
+  }
+.card{ 
+    .white{
+        color:$white;
+    }
+    a.btn{
+        box-sizing: border-box;
+        border-width: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0.5rem 18px;
+        line-height: 1.75;
+        cursor: pointer;
+        text-transform: uppercase;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        box-shadow: none;
+        transition:all 1s ease;
+        text-decoration: none;
+        z-index: 5;
+    }  
+    a span{
+        font-size: 80%;
+        color: $white;
+    }
+    a{
+      cursor:pointer;
+    }
+}   
+.bg-orange{
+    p, span, i, a, h3 {
+        color:$white!important;
+    }
+}  

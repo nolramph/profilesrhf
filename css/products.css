@@ -1,0 +1,206 @@
+body#products {
+  /* entire container, keeps perspective */
+  /* flip the pane when hovered */
+  /* flip speed goes here */
+  /* hide back of pane during swap */
+  /* front pane, placed above back */
+  /* back, initially hidden pane */
+}
+
+body#products header.producthead h1 {
+  font-size: 2rem;
+}
+
+body#products header.producthead .btn-request-quote, body#products header.producthead .btn-list-of-products {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+body#products .content-img {
+  text-align: center;
+}
+
+body#products .content-img img {
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  border-radius: .25rem;
+  width: auto;
+}
+
+body#products .content-img p {
+  text-align: justify;
+}
+
+body#products .content-img img, body#products .content-img p, body#products .content-img form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body#products #product-list a {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+body#products #product-list a br {
+  display: block;
+}
+
+body#products .card-container {
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+}
+
+body#products .card-container:not(.manual-flip):hover .card,
+body#products .card-container.hover.manual-flip .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+body#products .card-container.fixed:not(.manual-flip):hover .card,
+body#products .card-container.fixed.hover.manual-flip .card {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+body#products .card-container.static:hover .card,
+body#products .card-container.static.hover .card {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+body#products .card {
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+body#products .front, body#products .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+body#products .front {
+  z-index: 2;
+}
+
+body#products .back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: 3;
+}
+
+body#products .card {
+  border-radius: 4px;
+  color: #444444;
+}
+
+body#products .front[data-background="image"], body#products .back[data-background="image"] {
+  background-size: cover;
+  text-align: center;
+}
+
+body#products .front[data-background="image"] .card-body, body#products .back[data-background="image"] .card-body {
+  position: relative;
+  z-index: 2;
+  min-height: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body#products .card-container, body#products .front, body#products .back {
+  width: 100%;
+  height: 420px;
+  border-radius: 4px;
+}
+
+body#products .card .content .main {
+  min-height: 160px;
+}
+
+body#products #request-quote {
+  margin-top: -40px;
+  padding: 0;
+  background-color: #EEE;
+}
+
+/*       Fix bug for IE      */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .front, .back {
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  .back {
+    visibility: hidden;
+    -ms-transition: all 0.2s cubic-bezier(0.92, 0.01, 0.83, 0.67);
+  }
+  .front {
+    z-index: 4;
+  }
+  .card-container:not(.manual-flip):hover .back {
+    z-index: 5;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 768px) {
+  body#products h2 {
+    font-size: 1.4rem;
+  }
+  body#products .content-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body#products h2 {
+    font-size: 2.25rem;
+  }
+  body#products header.producthead h1 {
+    font-size: 3rem;
+  }
+  body#products header.producthead .btn-request-quote, body#products header.producthead .btn-list-of-products {
+    width: 25%;
+    display: inline-block;
+  }
+  body#products #product-list a {
+    margin-bottom: 70px;
+  }
+  body#products #product-list a br {
+    display: none;
+  }
+  body#products #request-quote {
+    margin-top: -60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  body#products .content-img img, body#products .content-img p, body#products .content-img form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
