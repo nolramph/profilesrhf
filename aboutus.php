@@ -116,13 +116,13 @@
                                     </div>
                                     <a href="citizenship-action.php" class="btn btn-round btn-brown">Learn More</a>
                                  </div>
-                                 <div class="card" data-background="image" style="background-image: url('images/dmc-certificate-o.png');background-position: top center;">
+                                 <div class="card" data-background="image" style="background-image: url('images/about-us/certification.jpg');background-position: top center;">
                                     <div class="card-body">
-                                        <a href="images/catalogue/documents/dubai_municipality_certificate.pdf" target="_blank">
-                                            <h3 class="card-title">Dubai Municipality Certification</h3>
+                                        <a href="certificates.php">
+                                            <h3 class="card-title">Profiles RH Factory LLC Certifications</h3>
                                         </a>
                                     </div>
-                                    <a href="images/catalogue/documents/dubai_municipality_certificate.pdf" target="_blank" class="btn btn-round btn-gray">View Certification</a>
+                                    <a href="certificates.php" class="btn btn-round btn-green">Learn More</a>
                                 </div>
                         </div>
 
@@ -164,14 +164,6 @@
                             </p>
                         </div>
                         <a href="project-management.php" class="btn btn-round btn-gray">Learn more</a>
-                    </div>
-                    <div class="card" data-background="image" style="background-image: url('images/iso-certified-o.png');background-position: top center;">
-                        <div class="card-body">
-                            <a href="images/catalogue/documents/ISO_9001_2015_SGS_Certificate.pdf" target="_blank">
-                                <h3 class="card-title">ISO Certified Company</h3>
-                            </a>
-                        </div>
-                        <a href="images/catalogue/documents/ISO_9001_2015_SGS_Certificate.pdf" target="_blank" class="btn btn-round btn-brown">View Certification</a>
                     </div>
                 </div>
             </div>

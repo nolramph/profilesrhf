@@ -58,10 +58,10 @@
     </footer>
 
      <div class="text-center font-italic cpright">
-        <a class="iso-img" href="images/catalogue/documents/dubai_municipality_certificate.pdf" target="_blank">
+        <a class="iso-img" href="documents/dubai_municipality_certificate.pdf" target="_blank">
             <img src="images/dmc-certificate-o.png" alt="Dubai Municipality Certification" />
         </a>
-        <a class="iso-img" href="images/catalogue/documents/ISO_9001_2015_SGS_Certificate.pdf" target="_blank">
+        <a class="iso-img" href="documents/iso_9001_2015_sgs_certificate.pdf" target="_blank">
             <img src="images/iso-certified.png" alt="Profiles RHF ISO-Certification" />
         </a>
         <div class="mt-2">

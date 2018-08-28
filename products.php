@@ -86,7 +86,7 @@
     </section>
     
     <section id="product-sheets">
-      <div class = "container">
+      <!-- <div class = "container">
         <div class = "row">
           <div class = "col-md-12 text-center">
             <div class = "mx-auto products-alu">
@@ -100,8 +100,9 @@
                 <a href = "images/products/pdf/Aluminum_Jacketing.pdf" target="_blank" class = "btn btn-orange">Projact - Aluminum Jacketing</br> <sub>(Click to learn more)</sub> </a>  
               </div>
             </div>
-          </div><!--SECOND ROW -->  
-        </div>
+          </div>
+          //SECOND ROW
+        </div> -->
       <div class = "container">
           <h2 class = "text-center">Single Skin Cladding</h2>
           <div class = "row">
