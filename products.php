@@ -103,6 +103,32 @@
           </div>
           //SECOND ROW
         </div> -->
+        <div class = "container">
+          <h2 class = "text-center">Jacketing</h2>
+          <div class = "row">
+            <div class = "col-md-6">
+              <div class="card-container manual-flip fixed">
+                <div class="card">
+                    <div class="front" data-background="image" style="background-image: url('images/products/jacketing/PolykraftMB.png')">
+                        
+                    </div>
+                </div>
+              </div>
+              <a href = "images/products/pdf/jacketing/PolykraftMB.pdf" target="_blank" class = "btn btn-orange">Polykraft Moisture Barrier </br> <sub>(Click to learn more)</sub> </a>  
+            </div>
+            <div class = "col-md-6">
+            <div class="card-container manual-flip fixed">
+              <div class="card">
+                  <div class="front" data-background="image" style="background-image: url('images/products/jacketing/PolysurlynMB.png')">
+                    
+                  </div>
+              </div>
+            </div>
+            <a href = "images/products/pdf/jacketing/PolysurlynMB.pdf" target="_blank" class = "btn btn-orange">Polysurlyn Moisture Barrier </br> <sub>(Click to learn more)</sub> </a>  
+          </div>
+          </div><!--FIRST ROW -->
+        </div>
+    </div>
       <div class = "container">
           <h2 class = "text-center">Single Skin Cladding</h2>
           <div class = "row">

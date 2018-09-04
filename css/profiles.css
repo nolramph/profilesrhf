@@ -1703,7 +1703,7 @@ body#products #product-sheets a {
 
 @media (min-width: 992px) {
   body#products h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   body#products header.producthead h1 {
     font-size: 3rem;
@@ -1729,6 +1729,9 @@ body#products #product-sheets a {
   }
   body#products #product-sheets a {
     margin-bottom: 70px;
+  }
+  body#products br.long-br {
+    display: none;
   }
 }
 

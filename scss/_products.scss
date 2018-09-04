@@ -85,7 +85,7 @@ body#products{
 @media(min-width:992px){
     body#products{
         h2{
-            font-size: 1.8rem;
+            font-size: 1.7rem;
         }
         header.producthead{
             h1{ 
@@ -115,6 +115,9 @@ body#products{
         }
         #product-sheets a{
             margin-bottom: 70px;
+        }
+        br.long-br{
+            display:none;
         }
          
     }
