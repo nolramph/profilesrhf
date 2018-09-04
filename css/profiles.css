@@ -920,7 +920,7 @@ section#s1-1 h3.m-label {
 #contactus .aboutus-content-container {
   border-radius: 15px;
   padding: 30px;
-  background-color: #EEE;
+  background-color: #dadada;
   z-index: 5;
   position: relative;
   border-top-left-radius: 0;
@@ -2246,7 +2246,7 @@ body#projects #c-1 .div-select {
   background: #6788bf;
   height: 50px;
   margin-right: 29px;
-  color: #fff;
+  color: #ffd400;
   text-decoration: none;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;

@@ -43,7 +43,7 @@
                                         Our expert sales team will arrange everything for you.
 								</p>
                             </div>
-                            <a class="btn btn-round btn-gray" data-toggle="modal" data-target="#request-quote-modal">Let's Get Started</a>
+                            <a class="btn btn-round btn-brown" data-toggle="modal" data-target="#request-quote-modal">Let's Get Started</a>
                         </div>
                         <div class="card bg-orange"> 
                             <div class="card-body">
@@ -68,7 +68,7 @@
                                         We live in an environment shared by many and, as such, we have a great responsibility towards the natural world and its ecological future.
 								</p>
                             </div>
-                            <a href="environment-energy.php" class="btn btn-round btn-brown">Learn more</a>
+                            <a href="environment-energy.php" class="btn btn-round btn-orange">Learn more</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
@@ -163,7 +163,7 @@
                                     PROFILES RH LLC shall, in tendering for contracts, review all project (particularly the HSE plan) in accordance with the company’s contract review procedures.
                             </p>
                         </div>
-                        <a href="project-management.php" class="btn btn-round btn-gray">Learn more</a>
+                        <a href="project-management.php" class="btn btn-round btn-orange">Learn more</a>
                     </div>
                 </div>
             </div>
