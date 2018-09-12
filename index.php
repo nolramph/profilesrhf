@@ -113,13 +113,13 @@
         <div class = "row">
           <div class ="col-sm-12">
               <h3>Design Responsibility</h3>
-              <p>It is the responsibility of Profiles RH LLC, to design the pre-engineered building to meet 
+              <p>It is the responsibility of PROFILES RH LLC, to design the pre-engineered building to meet 
               the specifications including the design criteria and  design loads incorporated by the 
-              client into the contract document.  Profiles RH LLC, is not responsible for making an 
+              client into the contract document.  PROFILES RH LLC, is not responsible for making an 
               independent  determination of any local codes or any other requirements which 
               is not part of the contract documents.</p>
 
-              <p>Profiles RH LLC, is not responsible for the design of any components or  materials not so
+              <p>PROFILES RH LLC, is not responsible for the design of any components or  materials not so
               ld by it or their interface in connection with the Pre-Engineered Building Systems 
               unless such design responsibility is specifically required by the contract documents.</p>
 
@@ -132,20 +132,20 @@
         <div class = "row">
             <div class ="col-sm-12 col-xs-12">
                 <h3>Design Codes</h3>
-                <p>Profiles RHC LLC, uses the following codes for analysis, design and fabrication of its pre-engineered buildings and components.</p>
+                <p>PROFILES RHC LLC, uses the following codes for analysis, design and fabrication of its pre-engineered buildings and components.</p>
                 <ol>
                   <li>A.I.S.C. - "American Institute of Steel Construction" - Manual of Steel Construction 1989 and edition and its revisions. This manual is used for the design for all built up sections, hot-rolled sections and welded plates.</li>
                   <li>A.I.S.I. - "American Iron and Steel Institute" - Specifications for the design of cold formed steel structural members - 1996 Edition and its revisions. This manual is used for all welding specifications and procedures.</li>
                   <li>A.W.S. - "American Welding Society Manual" 2006 Edition. This manual used for all welding specifications and procedures.</li>
                   <li> M.B.M.A. - "Metal Building Manufacturers Association" manual 1996 Edition / 2002 Edition Metal Building Dealers Association. This manual is used for all loading conditions, fabrication tolerances and is considered as a guideline for pre-engineered buildings.</li>
                 </ol>
-                <p>Its Profiles RH LLC's policy to adhere to all latest updates of the above code. Apart from the above mentioned codes, Profiles RH LLC, is capable of designing the structures in accordance with B.S. 5950 and B.S. 449. For concrete design and related subjects, Profiles RH LLC, follows B.S. 8110 as the design code.</p>
+                <p>Its PROFILES RH LLC's policy to adhere to all latest updates of the above code. Apart from the above mentioned codes, PROFILES RH LLC, is capable of designing the structures in accordance with B.S. 5950 and B.S. 449. For concrete design and related subjects, PROFILES RH LLC, follows B.S. 8110 as the design code.</p>
             </div>
       </div>
       <div class = "row">
           <div class ="col-sm-12">
             <h3>Building Design Certification</h3>
-            <p>Upon the request of the client, Profiles RH LLC, will provide a letter of certification towards the integrity of the design. The Engineering Manager and the Managing Director will duly authorize this letter.</p>
+            <p>Upon the request of the client, PROFILES RH LLC, will provide a letter of certification towards the integrity of the design. The Engineering Manager and the Managing Director will duly authorize this letter.</p>
           </div>
         </div>
     </section>
@@ -156,9 +156,9 @@
        <h2 class="text-center">Standard Building Systems</h2>
        <div class = "row">
           <div class = "col-sm-12 col-md-12">
-            <p>This section gives guidelines on the most commonly used structural frames by Profiles RH LLC. These are considered to be the most economical designs and cater to a wide variety of usages.</p>
+            <p>This section gives guidelines on the most commonly used structural frames by PROFILES RH LLC. These are considered to be the most economical designs and cater to a wide variety of usages.</p>
             <p>For each type of frame (section 3.2 to 3.7), a load table is given showing the clearance and reactions. This is a very handy data for the preliminary design of foundations and pedestals. Section - 3.8 to 3.10 is load table for canopies generally used for parking bays.</p>
-            <p class="font-weight-bold">For special conditions Profiles RHF can provide the designer/consultant with data required for preliminary designs.</p>
+            <p class="font-weight-bold">For special conditions PROFILES RHF can provide the designer/consultant with data required for preliminary designs.</p>
           </div>
        </div>
        <div class = "row">
@@ -180,7 +180,7 @@
               <div class = "custom-box">
                  <img src="images/eave-height.svg" alt="">
                  <p class="custom-box-title">Eave Height</p>
-                 <p>Eave heights of 4meters, 6meters and 8meters are considered in this section. These are the height requirement for most of the structures. However heights up to 16 meters can be produced by Profiles RHC LLC.</p>
+                 <p>Eave heights of 4meters, 6meters and 8meters are considered in this section. These are the height requirement for most of the structures. However heights up to 16 meters can be produced by PROFILES RHC LLC.</p>
               </div>
             </div>
        </div>

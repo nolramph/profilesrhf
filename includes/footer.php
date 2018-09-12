@@ -2,7 +2,7 @@
       <div class="container">
         <div class ="row">
           <div class = "col-lg-7 col-md-12">
-              <h5>Profiles RH LLC - Sharjah</h5>
+              <h5>PROFILES RH LLC - Sharjah</h5>
               <div class="row">
                 <div class = "col-md-5 col-sm-12">
                     <i class="fa fa-building valign"></i><p class="valign">PO Box 656 8 St. Industrial Area 15 Sharjah, United Arab Emirates</p>
@@ -17,7 +17,7 @@
                 </div>
               </div>
               <hr>
-              <h5>Profiles RH LLC - Dubai</h5>
+              <h5>PROFILES RH LLC - Dubai</h5>
               <div class="row">
                 <div class = "col-md-5 col-sm-12">
                     <i class="fa fa-building valign"></i><p class="valign">PO Box 20678, Flat 324 Abdul Razzak Ali Hussain Al Zarouni Building
@@ -62,7 +62,7 @@
             <img src="images/dmc-certificate-o.png" alt="Dubai Municipality Certification" />
         </a>
         <a class="iso-img" href="documents/iso_9001_2015_sgs_certificate.pdf" target="_blank">
-            <img src="images/iso-certified.png" alt="Profiles RHF ISO-Certification" />
+            <img src="images/iso-certified.png" alt="PROFILES RHF ISO-Certification" />
         </a>
         <div class="mt-2">
             <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved</sub>

@@ -14,7 +14,7 @@
         <div class = "row">
           <div class = "col-md-12 col-sm-12 col-xs-12">
             <div class = "foldhead-container">
-                <h1 class="font-italic">It's time you learned <br> about Profiles RH</h1>
+                <h1 class="font-italic">It's time you learned <br> about PROFILES RH</h1>
                 <p>Tired of being shaunted from pillar to post when you want help with cladding.</p>
                 <a id="btn-products-request-quote" class="btn btn-request-quote"><i class="fa fa-commenting" aria-hidden="true"></i> Request a Quote</a>
                 <a id="btn-products-list" class="btn btn-green btn-list-of-products"><i class="fa fa-th" aria-hidden="true"></i> List of Products</a>
@@ -359,7 +359,7 @@
                 </div>
                 <div class = "col-lg-10 col-md-4 col-sm-12">
                   <div class="content">
-                      <p>It's a standard of service which is appreciated all around the world. In the Middle East, for example, where timeless courtesy and good manners go hand in hand with business, you'll find many developments in industry, commerce and agriculture benefitting from superior range of Profiles RH products.</p>
+                      <p>It's a standard of service which is appreciated all around the world. In the Middle East, for example, where timeless courtesy and good manners go hand in hand with business, you'll find many developments in industry, commerce and agriculture benefitting from superior range of PROFILES RH products.</p>
                   </div>
                 </div>
                 <div class = "col-lg-2 col-md-2 col-sm-12">
@@ -367,7 +367,7 @@
                 </div>
                 <div class = "col-lg-10 col-md-4 col-sm-12">
                   <div class="content">
-                      <p>And what a range it is! Everything that architects or specifiers and their customers could wish for, to create a bright exciting buildings tough enough to stand up to the fiercest elements and still look terrific for profiled sheets, for wall and roofs, translucentroof lights plus all the flashings, fixings and fillers you could possibly need, Profiles RH is the name to remember.</p>
+                      <p>And what a range it is! Everything that architects or specifiers and their customers could wish for, to create a bright exciting buildings tough enough to stand up to the fiercest elements and still look terrific for profiled sheets, for wall and roofs, translucentroof lights plus all the flashings, fixings and fillers you could possibly need, PROFILES RH is the name to remember.</p>
                   </div>
                 </div>
               </div>

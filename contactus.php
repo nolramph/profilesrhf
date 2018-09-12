@@ -20,7 +20,7 @@
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5317121620787!2d55.4375311145764!3d25.286333834284537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5efa3bb9067d%3A0x6fea25a4ff6f94a3!2sProfiles+RHF!5e0!3m2!1sen!2sae!4v1524127388963" height="250" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
                   <div class = "col-md-6">
-                    <h2>Profiles RH LLC - Sharjah</h2>
+                    <h2>PROFILES RH LLC - Sharjah</h2>
                       <div class="content">
                         <i class="fa fa-building mr-2" aria-hidden="true"></i>
                         <p>PO Box 656 8 St. Industrial Area 15 <br> Sharjah, United Arab Emirates</p>
@@ -57,7 +57,7 @@
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14431.030975297646!2d55.379030473880206!3d25.27873359474208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c37b5f3a8a7%3A0x2a942215359d5faf!2sAl+Zarouni+Building+Materials+Trading!5e0!3m2!1sen!2sae!4v1524136130037" height="250" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
                   <div class = "col-md-6">
-                    <h2>Profiles RH LLC - Dubai</h2>
+                    <h2>PROFILES RH LLC - Dubai</h2>
                       <div class="content">
                         <i class="fa fa-building mr-2" aria-hidden="true"></i>
                         <p>Flat 324 Abdul Razzak Ali Hussain Al Zarouni Building Al Qusais 2, Dubai, United Arab Emirates</p>
@@ -138,7 +138,7 @@
             <img src="images/dmc-certificate-o.png" alt="Dubai Municipality Certification" />
         </a>
         <a class="iso-img" href="images/catalogue/documents/ISO_9001_2015_SGS_Certificate.pdf" target="_blank">
-            <img src="images/iso-certified.png" alt="Profiles RHF ISO-Certification" />
+            <img src="images/iso-certified.png" alt="PROFILES RHF ISO-Certification" />
         </a>
         <br>
       <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved</sub>

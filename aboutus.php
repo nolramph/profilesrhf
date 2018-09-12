@@ -119,7 +119,7 @@
                                  <div class="card" data-background="image" style="background-image: url('images/about-us/certification.jpg');background-position: top center;">
                                     <div class="card-body">
                                         <a href="certificates.php">
-                                            <h3 class="card-title">Profiles RH Factory LLC Certifications</h3>
+                                            <h3 class="card-title">PROFILES RH Factory LLC Certifications</h3>
                                         </a>
                                     </div>
                                     <a href="certificates.php" class="btn btn-round btn-green">Learn More</a>

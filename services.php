@@ -15,7 +15,7 @@
           <div class = "col-md-6 col-sm-12 col-xs-12">
             <div class = "foldhead-container"> 
                 <h1 class="font-italic">"SERVICE is delivering a <br> QUALITY product on time"</h1>
-                <p>SERVICE is providing clients with competitive prices for buildings with liners, partitions, fascia, canopies, and so much more.... In a matter of minutes! Upon initiation of a contract, Profiles RH state of the art program provides computerized design, erection drawings and bill of materials to expedite delivery.</p>
+                <p>SERVICE is providing clients with competitive prices for buildings with liners, partitions, fascia, canopies, and so much more.... In a matter of minutes! Upon initiation of a contract, PROFILES RH state of the art program provides computerized design, erection drawings and bill of materials to expedite delivery.</p>
                 <p>Since PROFILES RH LLC's inception in 1990, SERVICE has been the cornerstone of our business philosophy. As you review our manufacturing capabilities and product line and evaluate a few of our industrial, commercial, institutional, self-storage and design build projects, remember ....</p>
             </div>
           </div> 
@@ -159,7 +159,7 @@
             <div class = "row">
                 <div class = "col-md-12 col-sm-12">
                     <img src = "images/services/best-price.svg" alt="Best Price" />
-                    <p>Profiles RH LLC, believes in delivering a quality product at a competitive price! Offering a professional service to each and every client.</p>
+                    <p>PROFILES RH LLC, believes in delivering a quality product at a competitive price! Offering a professional service to each and every client.</p>
                     <p class="font-weight-bold">The implementation of this philosophy is done by incorporating the following principles:</p>
                     <ul class="fa-ul">
                         <li><i class="fa-li fa fa-check-circle"></i>Giving each project the time, attention and craftmanship it deserves.</li>

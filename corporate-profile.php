@@ -21,7 +21,7 @@
                   <ul class="timeline">
                     <li>
                       <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="images/about-us/main-office.svg" alt="ProfilesRHF">
+                        <img class="rounded-circle img-fluid" src="images/about-us/main-office.svg" alt="PROFILES RHF">
                       </div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -98,7 +98,7 @@
                               <p class="text-muted">Design and fabrication of PROFILES’ products are conducted according to international standards employing state-of-the-art technologies in its 670,000 sq. ft. production facilities.</p>
                               <p class="text-muted">The company’s product range includes structural steel, Z/C purlins, roofing sheets, polyurethane insulated panels, flashing and trims to complete a warehouse, factory, shopping mall and sports/recreation club.</p>
                               <p class="text-muted">The company also specializes in skid mounted refrigerated containers, cold stores, porta-cabins, metal jacketing, aluminum coils and strips, as well as in the design, fabrication, supply and erection of pre-engineered steel buildings – an endeavour which earned PROFILES a sales turnover of nearly Dhs.280 million ($76.24million), a 40 percent increase from its sales in 2005.</p>
-                              <p class="text-muted">Banking on the high technical capacity of its employees, Profiles has started the launch of Multi Storied Buildings as well, with in-house Civil, MEP, Electrical, A/C and Logistics Divisions. At present Profiles has been licensed for its activities with the Emirates of Abu Dhabi, Dubai and Sharjah.</p>
+                              <p class="text-muted">Banking on the high technical capacity of its employees, PROFILES has started the launch of Multi Storied Buildings as well, with in-house Civil, MEP, Electrical, A/C and Logistics Divisions. At present PROFILES has been licensed for its activities with the Emirates of Abu Dhabi, Dubai and Sharjah.</p>
                               <p class="text-muted">The backbone of the company is its strong R&D and Maintenance department which has highly skilled technicians and Engineers not only to Maintain and Run the existing plants but also capable of Designing and Fabrication of Machineries and Equipment required for various departments.</p>
                               <p class="text-muted">Among PROFILES’ achievements include two fast track projects: 25 sheds for Al Rawda Poultry Farms and a 400,000 sq. ft. project for Liberty Investments which includes 96 warehouses.  </p>
                               <p class="text-muted"></p>
@@ -107,7 +107,7 @@
                       </li>
                       <li class="timeline-inverted">
                           <div class="timeline-image">
-                              <img class="rounded-circle img-fluid" src="images/about-us/company-people.svg" alt="Company Employee">
+                              <img class="rounded-circle img-fluid" src="images/about-us/company-people.jpg " alt="Company Employee">
                           </div>
                           <div class="timeline-panel">
                             <div class="timeline-heading">
