@@ -15,7 +15,7 @@ header.projecthead{
   background: url('../images/projects/projects-bg.svg');
   background-position: right center;
 }
-header.foldhead, header.producthead, header.servicehead, header.projecthead{
+header.foldhead, header.producthead, header.servicehead, header.projecthead, header.sitemap{
   text-align: center; 
   color: white;
   padding-bottom: 2rem;
@@ -64,6 +64,10 @@ header.projecthead{
         display:none;
       }
   }
+}
+
+header.sitemap{
+  background-color: #373737;
 }
 
 

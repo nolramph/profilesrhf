@@ -65,7 +65,7 @@
             <img src="images/iso-certified.png" alt="PROFILES RHF ISO-Certification" />
         </a>
         <div class="mt-2">
-            <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved</sub>
+            <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved | <a href="sitemap.php">Sitemap</a></sub>
         </div>
       
     </div> 

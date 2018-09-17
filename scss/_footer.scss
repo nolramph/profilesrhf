@@ -49,6 +49,13 @@ div.cpright{
     sub{
       font-size:75%;
       color: $white;
+      a{
+        color: #4483f7;
+        margin: 0;
+        &:hover{
+          color: darken(#4483f7, 30%);
+        }
+      }
     }
     img{
       height: 65px;
