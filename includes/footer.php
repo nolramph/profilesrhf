@@ -57,7 +57,7 @@
       </div>
     </footer>
 
-     <div class="text-center font-italic cpright">
+     <div class="text-center cpright">
         <a class="iso-img" href="documents/dubai_municipality_certificate.pdf" target="_blank">
             <img src="images/dmc-certificate-o.png" alt="Dubai Municipality Certification" />
         </a>
@@ -65,7 +65,7 @@
             <img src="images/iso-certified.png" alt="PROFILES RHF ISO-Certification" />
         </a>
         <div class="mt-2">
-            <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved | <a href="sitemap.php">Sitemap</a></sub>
+            <sub>Copyright PROFILES RH LLC 2018 , All Rights Reserved | <u><a href="sitemap.php">Site Map</a></u>  </sub>  
         </div>
       
     </div> 

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <link rel="icon" href="prhr-logo01-min.ico">
     <title>PROFILES RH LLC - <?php echo $result['title']; ?></title>
     

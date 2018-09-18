@@ -2379,6 +2379,16 @@ body#projects #c-1 h4 {
   }
 }
 
+header.sitemap {
+  padding-bottom: 0;
+}
+
+header.sitemap .bg-color {
+  background-color: rgba(193, 193, 193, 0.5);
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
 header.sitemap h3 {
   color: #FFF;
   margin-bottom: 2rem;
@@ -2396,24 +2406,16 @@ header.sitemap ul {
   text-align: left;
 }
 
+header.sitemap ul.sub i {
+  display: none;
+}
+
 header.sitemap .main {
   list-style-type: none;
-  display: table;
-  margin: 0 auto;
 }
 
 header.sitemap .main li {
   font-size: 1.2rem;
-}
-
-header.sitemap .main.s {
-  padding-left: 29px;
-}
-
-header.sitemap ul.sub {
-  display: table;
-  margin: 0 auto;
-  text-align: left;
 }
 
 header.sitemap .col-custom {
@@ -2438,13 +2440,20 @@ header.sitemap .row {
   header.sitemap .main li {
     font-size: 1.5rem;
   }
-  header.sitemap .main.s {
-    padding-left: auto;
-  }
   header.sitemap ul.sub {
-    display: block;
-    margin: auto;
-    text-align: left;
+    width: 760px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  header.sitemap ul.sub li {
+    line-height: 1.5em;
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+    font-size: 1.2rem;
+  }
+  header.sitemap ul.sub i {
+    display: inline-block;
   }
   header.sitemap .col-custom {
     flex-basis: 0;
